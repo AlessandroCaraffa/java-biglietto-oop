@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 
 public class Biglietto {
-	
+	// gruppo 2
 	
 
 	private int km, eta;
