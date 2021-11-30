@@ -20,7 +20,7 @@ public class Biglietteria {
 		int eta = Integer.parseInt(input.nextLine());
 		System.out.println("Desidera una durata flessibile del biglietto?(normale 30 giorni,flessibile 90)");
 		durata = input.nextLine();
-		if (durata.toLowerCase() == "si") {
+		if (durata.equals("si")) {
 			durataFlessibile = true;
 		}else{
 			durataFlessibile = false;
@@ -40,7 +40,7 @@ public class Biglietteria {
 		
 		String prezzoFormattato = formatter.format(biglietto.calcolaPrezzo());
 //		System.out.println(biglietto.calcolaPrezzo());
-		System.out.println("$" + prezzoFormattato + " Biglietto in scadenza il : " + biglietto.calcolaDataScadenza() );
+		System.out.println("$" + prezzoFormattato + " Biglietto in scadenza il: " + biglietto.calcolaDataScadenza() );
 		
 		
 		

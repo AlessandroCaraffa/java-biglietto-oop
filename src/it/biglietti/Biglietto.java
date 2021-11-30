@@ -12,7 +12,7 @@ public class Biglietto {
 	private int km, eta;
 	private LocalDate dataOdierna ;
 	private DateTimeFormatter dataFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-	private boolean durataFlessibile = false;
+	private boolean durataFlessibile;
 	
 	
 	private final BigDecimal COSTO_PER_KM = new BigDecimal(0.21);
